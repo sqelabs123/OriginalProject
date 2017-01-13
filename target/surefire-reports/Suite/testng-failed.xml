@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="password" value="123456789"/>
+  <parameter name="environment" value="chrome"/>
+  <parameter name="userId" value="james.thomes@sqelabs.com"/>
+  <parameter name="config" value="single.conf.json.json"/>
+  <parameter name="url" value="https://foodniche.me/"/>
+  <test name="Test(failed)">
+    <parameter name="password" value="123456789"/>
+    <parameter name="environment" value="chrome"/>
+    <parameter name="userId" value="james.thomes@sqelabs.com"/>
+    <parameter name="config" value="single.conf.json.json"/>
+    <parameter name="url" value="https://foodniche.me/"/>
+    <classes>
+      <class name="foodniche_project.Signin_and_forgot_password">
+        <methods>
+          <include name="Facebook_Signin"/>
+          <include name="Login"/>
+          <include name="Restoring_password"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- foodniche_project.Signin_and_forgot_password -->
+      <class name="foodniche_project.Contents_by_individual_user">
+        <methods>
+          <include name="Posting_Picture_by_Business_User"/>
+          <include name="Posting_Video_By_Business_User"/>
+          <include name="Deleting_Pictures_Contents_by_Business_User"/>
+          <include name="Deleting_Recipe_Contents_by_Business_User"/>
+          <include name="Deleting_Video_Contents_by_Business_User"/>
+          <include name="Posting_Tutorials_by_Business_User"/>
+          <include name="Editing_Video_by_Business_User"/>
+          <include name="Posting_Recipe_by_Business_User"/>
+          <include name="Editing_Tutorials_by_Business_User"/>
+          <include name="Deleting_Tutorials_Contents_by_Business_User"/>
+          <include name="Editing_Recipe_by_Business_User"/>
+          <include name="Editing_Pictures_by_Business_User"/>
+        </methods>
+      </class> <!-- foodniche_project.Contents_by_individual_user -->
+      <class name="foodniche_project.Signupuser">
+        <methods>
+          <include name="Login"/>
+          <include name="SignUpForm"/>
+        </methods>
+      </class> <!-- foodniche_project.Signupuser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
