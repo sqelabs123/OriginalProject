@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="password" value="123456789"/>
+  <parameter name="environment" value="chrome"/>
+  <parameter name="userId" value="james.thomes@sqelabs.com"/>
+  <parameter name="config" value="single.conf.json.json"/>
+  <parameter name="url" value="https://foodniche.me/"/>
+  <test name="Test">
+    <parameter name="password" value="123456789"/>
+    <parameter name="environment" value="chrome"/>
+    <parameter name="userId" value="james.thomes@sqelabs.com"/>
+    <parameter name="config" value="single.conf.json.json"/>
+    <parameter name="url" value="https://foodniche.me/"/>
+    <classes>
+      <class name="foodniche_project.Signin_and_forgot_password"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite1] -->

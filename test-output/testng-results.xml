@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite2" duration-ms="208614" started-at="2017-01-12T13:27:10Z" finished-at="2017-01-12T13:30:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="208614" started-at="2017-01-12T13:27:10Z" finished-at="2017-01-12T13:30:39Z">
+      <class name="foodniche_project.Contents_by_business_user">
+        <test-method status="PASS" signature="Posting_Pictures_Contents_by_Business_User(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Posting_Pictures_Contents_by_Business_User" duration-ms="45379" started-at="2017-01-12T18:57:10Z" finished-at="2017-01-12T18:57:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[joan.parker@sqelabs.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://foodniche.me/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Posting_Pictures_Contents_by_Business_User -->
+        <test-method status="PASS" signature="Editing_Pictures_Contents_by_Business_User()[pri:2, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Editing_Pictures_Contents_by_Business_User" duration-ms="14480" started-at="2017-01-12T18:57:56Z" finished-at="2017-01-12T18:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editing_Pictures_Contents_by_Business_User -->
+        <test-method status="PASS" signature="Deleting_Pictures_Contents_by_Business_User()[pri:3, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Deleting_Pictures_Contents_by_Business_User" duration-ms="1262" started-at="2017-01-12T18:58:10Z" finished-at="2017-01-12T18:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleting_Pictures_Contents_by_Business_User -->
+        <test-method status="PASS" signature="Posting_Video_Contents_By_Business_User()[pri:4, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Posting_Video_Contents_By_Business_User" duration-ms="14921" started-at="2017-01-12T18:58:11Z" finished-at="2017-01-12T18:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Posting_Video_Contents_By_Business_User -->
+        <test-method status="PASS" signature="Editing_Video_Contents_by_Business_User()[pri:5, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Editing_Video_Contents_by_Business_User" duration-ms="13086" started-at="2017-01-12T18:58:26Z" finished-at="2017-01-12T18:58:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editing_Video_Contents_by_Business_User -->
+        <test-method status="PASS" signature="Deleting_Video_Contents_by_Business_User()[pri:6, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Deleting_Video_Contents_by_Business_User" duration-ms="757" started-at="2017-01-12T18:58:39Z" finished-at="2017-01-12T18:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleting_Video_Contents_by_Business_User -->
+        <test-method status="PASS" signature="Posting_Recipe_Contents_by_Business_User()[pri:7, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Posting_Recipe_Contents_by_Business_User" duration-ms="33099" started-at="2017-01-12T18:58:40Z" finished-at="2017-01-12T18:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Posting_Recipe_Contents_by_Business_User -->
+        <test-method status="PASS" signature="Editing_Recipe_Contents_by_Business_User()[pri:8, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Editing_Recipe_Contents_by_Business_User" duration-ms="11104" started-at="2017-01-12T18:59:13Z" finished-at="2017-01-12T18:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editing_Recipe_Contents_by_Business_User -->
+        <test-method status="PASS" signature="Deleting_Recipe_Contents_Contents_by_Business_User()[pri:9, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Deleting_Recipe_Contents_Contents_by_Business_User" duration-ms="1292" started-at="2017-01-12T18:59:24Z" finished-at="2017-01-12T18:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleting_Recipe_Contents_Contents_by_Business_User -->
+        <test-method status="PASS" signature="Posting_Tutorials_Contents_by_Business_User()[pri:10, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Posting_Tutorials_Contents_by_Business_User" duration-ms="30078" started-at="2017-01-12T18:59:26Z" finished-at="2017-01-12T18:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Posting_Tutorials_Contents_by_Business_User -->
+        <test-method status="PASS" signature="Editing_Tutorials_Contents_by_Business_User()[pri:11, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Editing_Tutorials_Contents_by_Business_User" duration-ms="11430" started-at="2017-01-12T18:59:56Z" finished-at="2017-01-12T19:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editing_Tutorials_Contents_by_Business_User -->
+        <test-method status="PASS" signature="Deleting_Tutorials_Contents_by_Business_User()[pri:12, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Deleting_Tutorials_Contents_by_Business_User" duration-ms="1226" started-at="2017-01-12T19:00:07Z" finished-at="2017-01-12T19:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleting_Tutorials_Contents_by_Business_User -->
+        <test-method status="PASS" signature="Posting_Coupons_Contents_by_Business_User()[pri:13, instance:foodniche_project.Contents_by_business_user@39aeed2f]" name="Posting_Coupons_Contents_by_Business_User" duration-ms="30434" started-at="2017-01-12T19:00:08Z" finished-at="2017-01-12T19:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Posting_Coupons_Contents_by_Business_User -->
+      </class> <!-- foodniche_project.Contents_by_business_user -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite2 -->
+</testng-results>
