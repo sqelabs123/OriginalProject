@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+  <test name="Test">
+  
+   <parameter name="url" value="https://foodniche.me/"></parameter>
+	<parameter name="userId" value="james.thomes@sqelabs.com"></parameter>
+	<parameter name="password" value="123456789"></parameter>
+	
+	<parameter name="config" value="single.conf.json.json"/>
+    <parameter name="environment" value="chrome"/>
+ 
+    <classes>
+    
+   
+	    <class name="foodniche_project.Signin_and_forgot_password"/>
+		 <class name="foodniche_project.Contents_by_individual_user"/>
+    
+    	
+    	
+<!--   	
+		
+		
+		 
+		 //Skiping Signupuser class, because of junk profile picture
+         <class name="foodniche_project.Signupuser"/>
+         
+      				--> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
